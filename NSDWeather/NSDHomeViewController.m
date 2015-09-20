@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 nsdave. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "NSDHomeViewController.h"
 
-@interface ViewController ()
+@interface NSDHomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation NSDHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CDCAE347221CD42DBCE31A2455431E1 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61620D1AD4D452CCCE375EC96E652305 /* MBProgressHUD-dummy.m */; };
+		3F91DCC662E951F685676CB8F0A29F69 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE4AAC77BE5A338FE5587D3BEEC4867 /* Reachability-dummy.m */; };
+		43E9D203B103ACEC0E9F9D669D18AEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3811A1ECE30883476F114E42572826EF /* Foundation.framework */; };
+		46A2D4BACFBB5DEC0C6E9707F7372A43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3811A1ECE30883476F114E42572826EF /* Foundation.framework */; };
+		5A35EB338EB2F46A81ED945CD8673D52 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 771061FB5D22A6166731D5E0F1927C88 /* Reachability.m */; };
+		9930C7DDAD17C7F56DDFCAC316F89E3C /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F136FD8C750979A98D6312CE8ECA1506 /* Reachability.h */; };
+		9B1C072096099A675BBD2E017437E3EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3811A1ECE30883476F114E42572826EF /* Foundation.framework */; };
+		AFFC3BA6A12D0B56B13A30F9ADE06419 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C06ABA100ADBA757B62F2A8A8E9C56C /* CoreGraphics.framework */; };
+		C45FB9875E223BF856B8F7610DDAD707 /* Pods-NSDWeather-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0D170A8ADAD51557AC0A75A40DE9CB /* Pods-NSDWeather-dummy.m */; };
+		E9A3EFDA08F79DD651E72FD1F20B9335 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30DA52C60D8B42F372B933D296828FD /* SystemConfiguration.framework */; };
+		EDD8F8D05C0FFFA5A20A084CD42029F9 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E3E64765876D041777DD07B22AE4BF /* MBProgressHUD.h */; };
+		F2E24C6C9436B04E691F9913DAFC7061 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F4539E9A2FB9474A52B37394BDD24B07 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4AA0A1E1F032FF31E2402B70B762831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7715626DC62CAF1D2C5024F03E3E510;
+			remoteInfo = MBProgressHUD;
+		};
+		E7646C26C5932F25D50D589E7702E15E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1893DE70459B9C5430E1E53597BF9817;
+			remoteInfo = Reachability;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13A73910AE25D22FC8251930C50FB567 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		15CBD97607910790235562F21D35189A /* Pods-NSDWeather-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSDWeather-resources.sh"; sourceTree = "<group>"; };
+		2DE4AAC77BE5A338FE5587D3BEEC4867 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		3811A1ECE30883476F114E42572826EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B0A5397FCD9EBDEFDE4F4741C9B8F39 /* Pods-NSDWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSDWeather.release.xcconfig"; sourceTree = "<group>"; };
+		61620D1AD4D452CCCE375EC96E652305 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		64F2CA606BE97C9D0EFB1605EAECE3F1 /* Pods-NSDWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSDWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		6569601CFF094BF7A8C021D1F9AE8FDB /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E691F638F5A7679569D5A7FD8DEFCB /* libPods-NSDWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSDWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		771061FB5D22A6166731D5E0F1927C88 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		794FC8E61AABDD080127A0BDD427BE51 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		7C06ABA100ADBA757B62F2A8A8E9C56C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		82D96E542C0A2086B41F82264B18D188 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9204BDC75922B5EEE9AA1D5C4555BC2C /* MBProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MBProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		97E3E64765876D041777DD07B22AE4BF /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9E6EB064416D6745E2E2A1ABD84CF909 /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		B85ED38FD9B5E36B2B0D652825F7A507 /* Reachability-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Reachability-Private.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D93D15D2ABAC61119EE08E323A760CAF /* Pods-NSDWeather-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSDWeather-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF8D2643D8E8EE15FB72D0AF682BC8B9 /* Pods-NSDWeather-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSDWeather-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC0D170A8ADAD51557AC0A75A40DE9CB /* Pods-NSDWeather-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSDWeather-dummy.m"; sourceTree = "<group>"; };
+		F136FD8C750979A98D6312CE8ECA1506 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F30DA52C60D8B42F372B933D296828FD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		F4539E9A2FB9474A52B37394BDD24B07 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F4EFD6F9173B185920E15E45C2928F1F /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91E7163BC7B028C8D2732B25DB0E0182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E9D203B103ACEC0E9F9D669D18AEDA /* Foundation.framework in Frameworks */,
+				E9A3EFDA08F79DD651E72FD1F20B9335 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E81D098BB04F6E263C011B73119756B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A2D4BACFBB5DEC0C6E9707F7372A43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC5236FE9EE1CBF4B8ECAF9E4F6859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFC3BA6A12D0B56B13A30F9ADE06419 /* CoreGraphics.framework in Frameworks */,
+				9B1C072096099A675BBD2E017437E3EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D77D88532722C8C88710DAB3B9148B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28E11A40BF2BB9CC7C5044E803CD08EA /* Pods-NSDWeather */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D2643D8E8EE15FB72D0AF682BC8B9 /* Pods-NSDWeather-acknowledgements.markdown */,
+				D93D15D2ABAC61119EE08E323A760CAF /* Pods-NSDWeather-acknowledgements.plist */,
+				EC0D170A8ADAD51557AC0A75A40DE9CB /* Pods-NSDWeather-dummy.m */,
+				15CBD97607910790235562F21D35189A /* Pods-NSDWeather-resources.sh */,
+				64F2CA606BE97C9D0EFB1605EAECE3F1 /* Pods-NSDWeather.debug.xcconfig */,
+				5B0A5397FCD9EBDEFDE4F4741C9B8F39 /* Pods-NSDWeather.release.xcconfig */,
+			);
+			name = "Pods-NSDWeather";
+			path = "Target Support Files/Pods-NSDWeather";
+			sourceTree = "<group>";
+		};
+		5EF03208E7E74F0D3A39B9BD6BB8D831 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				794FC8E61AABDD080127A0BDD427BE51 /* MBProgressHUD.xcconfig */,
+				9204BDC75922B5EEE9AA1D5C4555BC2C /* MBProgressHUD-Private.xcconfig */,
+				61620D1AD4D452CCCE375EC96E652305 /* MBProgressHUD-dummy.m */,
+				13A73910AE25D22FC8251930C50FB567 /* MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		71B8AD2DB9CA97A4FBF64783503620E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E6EB064416D6745E2E2A1ABD84CF909 /* Reachability.xcconfig */,
+				B85ED38FD9B5E36B2B0D652825F7A507 /* Reachability-Private.xcconfig */,
+				2DE4AAC77BE5A338FE5587D3BEEC4867 /* Reachability-dummy.m */,
+				F4EFD6F9173B185920E15E45C2928F1F /* Reachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
+			sourceTree = "<group>";
+		};
+		73E412240E64F46B22F7B9246EB53DAB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28E11A40BF2BB9CC7C5044E803CD08EA /* Pods-NSDWeather */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				A691AB219E6546715AD0E015717CC428 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				73E412240E64F46B22F7B9246EB53DAB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84D77D88532722C8C88710DAB3B9148B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7C06ABA100ADBA757B62F2A8A8E9C56C /* CoreGraphics.framework */,
+				3811A1ECE30883476F114E42572826EF /* Foundation.framework */,
+				F30DA52C60D8B42F372B933D296828FD /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9639A1C2F037E3BA8CD1D4CA55B7BF5E /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				97E3E64765876D041777DD07B22AE4BF /* MBProgressHUD.h */,
+				F4539E9A2FB9474A52B37394BDD24B07 /* MBProgressHUD.m */,
+				5EF03208E7E74F0D3A39B9BD6BB8D831 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		A691AB219E6546715AD0E015717CC428 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9639A1C2F037E3BA8CD1D4CA55B7BF5E /* MBProgressHUD */,
+				EFC2FC20383BF421CF2AE185B2CE9CC6 /* Reachability */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D96E542C0A2086B41F82264B18D188 /* libMBProgressHUD.a */,
+				68E691F638F5A7679569D5A7FD8DEFCB /* libPods-NSDWeather.a */,
+				6569601CFF094BF7A8C021D1F9AE8FDB /* libReachability.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFC2FC20383BF421CF2AE185B2CE9CC6 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				F136FD8C750979A98D6312CE8ECA1506 /* Reachability.h */,
+				771061FB5D22A6166731D5E0F1927C88 /* Reachability.m */,
+				71B8AD2DB9CA97A4FBF64783503620E0 /* Support Files */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06DDA1C8176784C0F19A04F482875238 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD8F8D05C0FFFA5A20A084CD42029F9 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AFFEC7E1D399137649154652B4B014 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9930C7DDAD17C7F56DDFCAC316F89E3C /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1893DE70459B9C5430E1E53597BF9817 /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7308906685EEDEACADE55318549938F7 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				1640A5B607EF8F9B5569D3175E1F0B02 /* Sources */,
+				91E7163BC7B028C8D2732B25DB0E0182 /* Frameworks */,
+				E8AFFEC7E1D399137649154652B4B014 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = 6569601CFF094BF7A8C021D1F9AE8FDB /* libReachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC875ED3ED683B2B9EF981EB4BA2F3B5 /* Pods-NSDWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 006E97F22DDDF603EE324377583CEBFB /* Build configuration list for PBXNativeTarget "Pods-NSDWeather" */;
+			buildPhases = (
+				64A46D12C405338EB33CFFAC0335E864 /* Sources */,
+				9E81D098BB04F6E263C011B73119756B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C2A3E7E5E5E25B63F0CDD2EFE45D14E /* PBXTargetDependency */,
+				3EF11604D9FA45B72BC10E66C2A75783 /* PBXTargetDependency */,
+			);
+			name = "Pods-NSDWeather";
+			productName = "Pods-NSDWeather";
+			productReference = 68E691F638F5A7679569D5A7FD8DEFCB /* libPods-NSDWeather.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7715626DC62CAF1D2C5024F03E3E510 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1498BAD59E3F9DB9243BA1AF9C221FD7 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				BD70408E8926D5A6B73DB338F5E5EFD3 /* Sources */,
+				DADC5236FE9EE1CBF4B8ECAF9E4F6859 /* Frameworks */,
+				06DDA1C8176784C0F19A04F482875238 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 82D96E542C0A2086B41F82264B18D188 /* libMBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7715626DC62CAF1D2C5024F03E3E510 /* MBProgressHUD */,
+				AC875ED3ED683B2B9EF981EB4BA2F3B5 /* Pods-NSDWeather */,
+				1893DE70459B9C5430E1E53597BF9817 /* Reachability */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1640A5B607EF8F9B5569D3175E1F0B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F91DCC662E951F685676CB8F0A29F69 /* Reachability-dummy.m in Sources */,
+				5A35EB338EB2F46A81ED945CD8673D52 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A46D12C405338EB33CFFAC0335E864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45FB9875E223BF856B8F7610DDAD707 /* Pods-NSDWeather-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD70408E8926D5A6B73DB338F5E5EFD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDCAE347221CD42DBCE31A2455431E1 /* MBProgressHUD-dummy.m in Sources */,
+				F2E24C6C9436B04E691F9913DAFC7061 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EF11604D9FA45B72BC10E66C2A75783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = 1893DE70459B9C5430E1E53597BF9817 /* Reachability */;
+			targetProxy = E7646C26C5932F25D50D589E7702E15E /* PBXContainerItemProxy */;
+		};
+		6C2A3E7E5E5E25B63F0CDD2EFE45D14E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = E7715626DC62CAF1D2C5024F03E3E510 /* MBProgressHUD */;
+			targetProxy = D4AA0A1E1F032FF31E2402B70B762831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16D09A540905AD7A7CE16C0402E50FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85ED38FD9B5E36B2B0D652825F7A507 /* Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		612DB466C3152C1F6973F0B4D71AF2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85ED38FD9B5E36B2B0D652825F7A507 /* Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		699919BD557A1272B93F7A60EE326342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0A5397FCD9EBDEFDE4F4741C9B8F39 /* Pods-NSDWeather.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		852EEBBEC08F689AB22BFAF1E46C8B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F2CA606BE97C9D0EFB1605EAECE3F1 /* Pods-NSDWeather.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B4E0786791F1F27322853879221182D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9204BDC75922B5EEE9AA1D5C4555BC2C /* MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E6C47F02DBB55CBCA69481F0FEBD8942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9204BDC75922B5EEE9AA1D5C4555BC2C /* MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		006E97F22DDDF603EE324377583CEBFB /* Build configuration list for PBXNativeTarget "Pods-NSDWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852EEBBEC08F689AB22BFAF1E46C8B3F /* Debug */,
+				699919BD557A1272B93F7A60EE326342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1498BAD59E3F9DB9243BA1AF9C221FD7 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E0786791F1F27322853879221182D2 /* Debug */,
+				E6C47F02DBB55CBCA69481F0FEBD8942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7308906685EEDEACADE55318549938F7 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612DB466C3152C1F6973F0B4D71AF2D6 /* Debug */,
+				16D09A540905AD7A7CE16C0402E50FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

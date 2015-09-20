@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		876AECA788E7D69CB2FE3FC9 /* libPods-NSDWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDB8A6DC9996D9C79B7C2EC /* libPods-NSDWeather.a */; };
 		E0BD70541BAF078300ECF7A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BD70531BAF078300ECF7A9 /* main.m */; };
 		E0BD70571BAF078300ECF7A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BD70561BAF078300ECF7A9 /* AppDelegate.m */; };
-		E0BD705A1BAF078300ECF7A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BD70591BAF078300ECF7A9 /* ViewController.m */; };
+		E0BD705A1BAF078300ECF7A9 /* NSDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BD70591BAF078300ECF7A9 /* NSDHomeViewController.m */; };
 		E0BD705D1BAF078400ECF7A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BD705B1BAF078400ECF7A9 /* Main.storyboard */; };
 		E0BD705F1BAF078400ECF7A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0BD705E1BAF078400ECF7A9 /* Images.xcassets */; };
 		E0BD70621BAF078400ECF7A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0BD70601BAF078400ECF7A9 /* LaunchScreen.xib */; };
 		E0BD706E1BAF078400ECF7A9 /* NSDWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BD706D1BAF078400ECF7A9 /* NSDWeatherTests.m */; };
+		E0BD707D1BAF0D2C00ECF7A9 /* NSDServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BD707C1BAF0D2C00ECF7A9 /* NSDServices.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E3B49CFF45AE16845199A2D /* Pods-NSDWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSDWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSDWeather/Pods-NSDWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		2444BF9D64541707BFB89322 /* Pods-NSDWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSDWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSDWeather/Pods-NSDWeather.release.xcconfig"; sourceTree = "<group>"; };
+		8DDB8A6DC9996D9C79B7C2EC /* libPods-NSDWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSDWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BD704E1BAF078300ECF7A9 /* NSDWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BD70521BAF078300ECF7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0BD70531BAF078300ECF7A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0BD70551BAF078300ECF7A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0BD70561BAF078300ECF7A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0BD70581BAF078300ECF7A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E0BD70591BAF078300ECF7A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0BD70581BAF078300ECF7A9 /* NSDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDHomeViewController.h; sourceTree = "<group>"; };
+		E0BD70591BAF078300ECF7A9 /* NSDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDHomeViewController.m; sourceTree = "<group>"; };
 		E0BD705C1BAF078400ECF7A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0BD705E1BAF078400ECF7A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E0BD70611BAF078400ECF7A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E0BD70671BAF078400ECF7A9 /* NSDWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BD706C1BAF078400ECF7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0BD706D1BAF078400ECF7A9 /* NSDWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDWeatherTests.m; sourceTree = "<group>"; };
+		E0BD707B1BAF0D2C00ECF7A9 /* NSDServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDServices.h; sourceTree = "<group>"; };
+		E0BD707C1BAF0D2C00ECF7A9 /* NSDServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDServices.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876AECA788E7D69CB2FE3FC9 /* libPods-NSDWeather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61604074C6127F986B869A52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E3B49CFF45AE16845199A2D /* Pods-NSDWeather.debug.xcconfig */,
+				2444BF9D64541707BFB89322 /* Pods-NSDWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6065FBCE5BF9BE95E8E3D9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DDB8A6DC9996D9C79B7C2EC /* libPods-NSDWeather.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0BD70451BAF078300ECF7A9 = {
 			isa = PBXGroup;
 			children = (
 				E0BD70501BAF078300ECF7A9 /* NSDWeather */,
 				E0BD706A1BAF078400ECF7A9 /* NSDWeatherTests */,
 				E0BD704F1BAF078300ECF7A9 /* Products */,
+				61604074C6127F986B869A52 /* Pods */,
+				B6065FBCE5BF9BE95E8E3D9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +108,13 @@
 		E0BD70501BAF078300ECF7A9 /* NSDWeather */ = {
 			isa = PBXGroup;
 			children = (
+				E0BD70781BAF0C5600ECF7A9 /* View */,
+				E0BD70791BAF0C5F00ECF7A9 /* Controller */,
+				E0BD70771BAF0C4E00ECF7A9 /* Model */,
+				E0BD707A1BAF0C8100ECF7A9 /* Network */,
 				E0BD70551BAF078300ECF7A9 /* AppDelegate.h */,
 				E0BD70561BAF078300ECF7A9 /* AppDelegate.m */,
-				E0BD70581BAF078300ECF7A9 /* ViewController.h */,
-				E0BD70591BAF078300ECF7A9 /* ViewController.m */,
-				E0BD705B1BAF078400ECF7A9 /* Main.storyboard */,
 				E0BD705E1BAF078400ECF7A9 /* Images.xcassets */,
-				E0BD70601BAF078400ECF7A9 /* LaunchScreen.xib */,
 				E0BD70511BAF078300ECF7A9 /* Supporting Files */,
 			);
 			path = NSDWeather;
@@ -119,6 +146,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E0BD70771BAF0C4E00ECF7A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E0BD70781BAF0C5600ECF7A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0BD70601BAF078400ECF7A9 /* LaunchScreen.xib */,
+				E0BD705B1BAF078400ECF7A9 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E0BD70791BAF0C5F00ECF7A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0BD70581BAF078300ECF7A9 /* NSDHomeViewController.h */,
+				E0BD70591BAF078300ECF7A9 /* NSDHomeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E0BD707A1BAF0C8100ECF7A9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E0BD707B1BAF0D2C00ECF7A9 /* NSDServices.h */,
+				E0BD707C1BAF0D2C00ECF7A9 /* NSDServices.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0BD70711BAF078400ECF7A9 /* Build configuration list for PBXNativeTarget "NSDWeather" */;
 			buildPhases = (
+				06DF65353223ED7F4B4A7EF1 /* Check Pods Manifest.lock */,
 				E0BD704A1BAF078300ECF7A9 /* Sources */,
 				E0BD704B1BAF078300ECF7A9 /* Frameworks */,
 				E0BD704C1BAF078300ECF7A9 /* Resources */,
+				DB8BE7A95567E74218DFAFF1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,12 +277,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06DF65353223ED7F4B4A7EF1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB8BE7A95567E74218DFAFF1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSDWeather/Pods-NSDWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0BD704A1BAF078300ECF7A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0BD705A1BAF078300ECF7A9 /* ViewController.m in Sources */,
+				E0BD705A1BAF078300ECF7A9 /* NSDHomeViewController.m in Sources */,
+				E0BD707D1BAF0D2C00ECF7A9 /* NSDServices.m in Sources */,
 				E0BD70571BAF078300ECF7A9 /* AppDelegate.m in Sources */,
 				E0BD70541BAF078300ECF7A9 /* main.m in Sources */,
 			);
@@ -345,6 +442,7 @@
 		};
 		E0BD70721BAF078400ECF7A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3B49CFF45AE16845199A2D /* Pods-NSDWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NSDWeather/Info.plist;
@@ -355,6 +453,7 @@
 		};
 		E0BD70731BAF078400ECF7A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2444BF9D64541707BFB89322 /* Pods-NSDWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NSDWeather/Info.plist;
@@ -416,6 +515,7 @@
 				E0BD70731BAF078400ECF7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0BD70741BAF078400ECF7A9 /* Build configuration list for PBXNativeTarget "NSDWeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +524,7 @@
 				E0BD70761BAF078400ECF7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
