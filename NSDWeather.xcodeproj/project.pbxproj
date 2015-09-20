@@ -16,6 +16,9 @@
 		E0BD70621BAF078400ECF7A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0BD70601BAF078400ECF7A9 /* LaunchScreen.xib */; };
 		E0BD706E1BAF078400ECF7A9 /* NSDWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BD706D1BAF078400ECF7A9 /* NSDWeatherTests.m */; };
 		E0BD707D1BAF0D2C00ECF7A9 /* NSDServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BD707C1BAF0D2C00ECF7A9 /* NSDServices.m */; };
+		E0BD70811BAF116000ECF7A9 /* NSDConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BD70801BAF116000ECF7A9 /* NSDConstants.m */; };
+		E0BD70841BAF20AC00ECF7A9 /* NSDWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BD70831BAF20AC00ECF7A9 /* NSDWeather.m */; };
+		E0BD70861BAF2FD100ECF7A9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0BD70851BAF2FD100ECF7A9 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,11 @@
 		E0BD706D1BAF078400ECF7A9 /* NSDWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDWeatherTests.m; sourceTree = "<group>"; };
 		E0BD707B1BAF0D2C00ECF7A9 /* NSDServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDServices.h; sourceTree = "<group>"; };
 		E0BD707C1BAF0D2C00ECF7A9 /* NSDServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDServices.m; sourceTree = "<group>"; };
+		E0BD707F1BAF116000ECF7A9 /* NSDConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDConstants.h; sourceTree = "<group>"; };
+		E0BD70801BAF116000ECF7A9 /* NSDConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDConstants.m; sourceTree = "<group>"; };
+		E0BD70821BAF20AC00ECF7A9 /* NSDWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDWeather.h; sourceTree = "<group>"; };
+		E0BD70831BAF20AC00ECF7A9 /* NSDWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDWeather.m; sourceTree = "<group>"; };
+		E0BD70851BAF2FD100ECF7A9 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,7 @@
 				E0BD70791BAF0C5F00ECF7A9 /* Controller */,
 				E0BD70771BAF0C4E00ECF7A9 /* Model */,
 				E0BD707A1BAF0C8100ECF7A9 /* Network */,
+				E0BD707E1BAF10C000ECF7A9 /* Helper */,
 				E0BD70551BAF078300ECF7A9 /* AppDelegate.h */,
 				E0BD70561BAF078300ECF7A9 /* AppDelegate.m */,
 				E0BD705E1BAF078400ECF7A9 /* Images.xcassets */,
@@ -123,6 +132,7 @@
 		E0BD70511BAF078300ECF7A9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E0BD70851BAF2FD100ECF7A9 /* Localizable.strings */,
 				E0BD70521BAF078300ECF7A9 /* Info.plist */,
 				E0BD70531BAF078300ECF7A9 /* main.m */,
 			);
@@ -149,6 +159,8 @@
 		E0BD70771BAF0C4E00ECF7A9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E0BD70821BAF20AC00ECF7A9 /* NSDWeather.h */,
+				E0BD70831BAF20AC00ECF7A9 /* NSDWeather.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -178,6 +190,15 @@
 				E0BD707C1BAF0D2C00ECF7A9 /* NSDServices.m */,
 			);
 			name = Network;
+			sourceTree = "<group>";
+		};
+		E0BD707E1BAF10C000ECF7A9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E0BD707F1BAF116000ECF7A9 /* NSDConstants.h */,
+				E0BD70801BAF116000ECF7A9 /* NSDConstants.m */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0BD705D1BAF078400ECF7A9 /* Main.storyboard in Resources */,
+				E0BD70861BAF2FD100ECF7A9 /* Localizable.strings in Resources */,
 				E0BD70621BAF078400ECF7A9 /* LaunchScreen.xib in Resources */,
 				E0BD705F1BAF078400ECF7A9 /* Images.xcassets in Resources */,
 			);
@@ -316,6 +338,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0BD705A1BAF078300ECF7A9 /* NSDHomeViewController.m in Sources */,
+				E0BD70811BAF116000ECF7A9 /* NSDConstants.m in Sources */,
+				E0BD70841BAF20AC00ECF7A9 /* NSDWeather.m in Sources */,
 				E0BD707D1BAF0D2C00ECF7A9 /* NSDServices.m in Sources */,
 				E0BD70571BAF078300ECF7A9 /* AppDelegate.m in Sources */,
 				E0BD70541BAF078300ECF7A9 /* main.m in Sources */,

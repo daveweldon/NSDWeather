@@ -1,10 +1,11 @@
 # Uncomment this line to define a global platform for your project
-platform :ios, ‘8.0’
+platform :ios, '8.0'
 
 target 'NSDWeather' do
 
 pod 'MBProgressHUD', '~> 0.9'
 pod 'Reachability', '~> 3.2'
+pod 'TWMessageBarManager', '~> 1.7'
 
 end
 

@@ -1,13 +1,16 @@
 PODS:
   - MBProgressHUD (0.9.1)
   - Reachability (3.2)
+  - TWMessageBarManager (1.7.2)
 
 DEPENDENCIES:
   - MBProgressHUD (~> 0.9)
   - Reachability (~> 3.2)
+  - TWMessageBarManager (~> 1.7)
 
 SPEC CHECKSUMS:
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  TWMessageBarManager: e7adc066ee425174f5dee79473fce913b1cd1662
 
 COCOAPODS: 0.38.2

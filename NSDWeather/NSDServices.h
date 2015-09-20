@@ -7,7 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSDConstants.h"
+
+@class NSDWeather;
+
+@protocol NSDServicesDelegate <NSObject>
+
+@required
+
+- (void)didReceiveWeather:(NSDWeather *)weather;
+- (void)didFailWithError:(NSDServiceError)error;
+
+@end
 
 @interface NSDServices : NSObject
+
++ (id)sharedServices;
+- (void)weatherWithDelegate:(id<NSDServicesDelegate>)delegate;
 
 @end
