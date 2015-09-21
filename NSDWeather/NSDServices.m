@@ -39,8 +39,9 @@
 
 - (void)weatherWithDelegate:(id<NSDServicesDelegate>)delegate;
 {
-    // return mock data, if required
-    if (NO) {
+    // TODO: Implement a mock data class which is triggered in a separate
+    // build scheme
+    if ((NO)) {
         
         if ([delegate respondsToSelector:@selector(didReceiveWeather:)]) {
             
