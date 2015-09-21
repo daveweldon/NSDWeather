@@ -18,6 +18,9 @@
 @property (nonatomic, strong) NSDForecast *tomorrowForecast;
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+- (instancetype)initWithCurrentWeather:(NSDCurrentWeather *)currentWeather
+                         todayForecast:(NSDForecast *)todayForecast
+                      tomorrowForecast:(NSDForecast *)tomorrowForecast;
 
 @end
 
@@ -34,6 +37,10 @@
 @property (nonatomic, strong) NSString *weatherText;
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+- (instancetype)initWithTemperature:(NSString *)temperature
+                    temperatureUnit:(NSString *)temperatureUnit
+                        weatherCode:(NSString *)weatherCode
+                        weatherText:(NSString *)weatherText;
 
 @end
 
@@ -54,6 +61,13 @@
 @property (nonatomic, strong) NSString *temperatureUnit;
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+- (instancetype)initWithDayWeatherCode:(NSString *)dayWeatherCode
+                        dayWeatherText:(NSString *)dayWeatherText
+                     dayMaxTemperature:(NSString *)dayMaxTemperature
+                      nightWeatherCode:(NSString *)nightWeatherCode
+                      nightWeatherText:(NSString *)nightWeatherText
+                   nightMinTemperature:(NSString *)nightMinTemperature
+                       temperatureUnit:(NSString *)temperatureUnit;
 
 @end
 

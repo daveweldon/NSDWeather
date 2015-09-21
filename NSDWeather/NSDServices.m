@@ -9,6 +9,7 @@
 #import "NSDServices.h"
 #import "Reachability.h"
 #import "NSDWeather.h"
+#import "NSDMockData.h"
 
 @implementation NSDServices
 
@@ -39,19 +40,19 @@
 
 - (void)weatherWithDelegate:(id<NSDServicesDelegate>)delegate;
 {
-    // TODO: Implement a mock data class which is triggered in a separate
-    // build scheme
-    if ((NO)) {
+    
+#ifdef IS_MOCK_MODE
+    
+    if ([delegate respondsToSelector:@selector(didReceiveWeather:)]) {
         
-        if ([delegate respondsToSelector:@selector(didReceiveWeather:)]) {
-            
-            // create mock object to return
-            [delegate didReceiveWeather:nil];
-
-        }
+        // create mock object to return
+        NSDWeather *mockWeather = [NSDMockData weather];
         
-        return;
+        [delegate didReceiveWeather:mockWeather];
+        
     }
+
+#else
     
     Reachability *reach = [Reachability reachabilityWithHostname:kARGServicesHost];
     
@@ -122,6 +123,8 @@
                                }
                                
                            }];
+    
+#endif
 
 }
 

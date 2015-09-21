@@ -7,121 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001DE4BEBB5377CE21944232EBD9D2B9 /* Pods-NSDWeather-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46544FEE5AAE17428AF81A783D3BE0C5 /* Pods-NSDWeather-dummy.m */; };
-		18E7C903FE51C51326D2656777C2C81C /* TWMessageBarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D2168DF9DEC426521A3852BBABF8F7 /* TWMessageBarManager.h */; };
-		19E77687F8080F41284469BB7FDEB915 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FB619133AC3174B5AE8B5FA275DBD9D3 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		21D1687D8B59F8FDDB3F45AB3B9E50B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46E4B50502C9C54D6C4FF1933EC46E7 /* CoreGraphics.framework */; };
-		3F91DCC662E951F685676CB8F0A29F69 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE4AAC77BE5A338FE5587D3BEEC4867 /* Reachability-dummy.m */; };
-		43E9D203B103ACEC0E9F9D669D18AEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE69BAAC0A512C63D1C1A03D37E0849 /* Foundation.framework */; };
-		44CBFB963AD0C170C1E9CE5FA6060E00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE69BAAC0A512C63D1C1A03D37E0849 /* Foundation.framework */; };
-		5A35EB338EB2F46A81ED945CD8673D52 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 771061FB5D22A6166731D5E0F1927C88 /* Reachability.m */; };
-		5EBC4EEB68637FB159226FEFE56821E5 /* TWMessageBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CE67A398DD8E31391EC655C4BF974 /* TWMessageBarManager.m */; };
-		7677C7CDE537991EA74F5F0F36F2B4FE /* TWMessageBarManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 506DAF7A37336A8D2EC5EE146821F59A /* TWMessageBarManager-dummy.m */; };
-		792A2D5BC127A45EC9FA5C4944F2C359 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B0C7E9CA2B8B1EBB7CE89A23F3EAD08 /* MBProgressHUD.h */; };
-		9930C7DDAD17C7F56DDFCAC316F89E3C /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F136FD8C750979A98D6312CE8ECA1506 /* Reachability.h */; };
-		BF0FE86284BDDCFFBA1AF2A77C1FD80B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE69BAAC0A512C63D1C1A03D37E0849 /* Foundation.framework */; };
-		E1D39677821D6B6DF5874705A6A956ED /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B1DF2C217868230476EDD1B8975C26 /* MBProgressHUD-dummy.m */; };
-		E9A3EFDA08F79DD651E72FD1F20B9335 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30DA52C60D8B42F372B933D296828FD /* SystemConfiguration.framework */; };
-		F221D48BD82457ECA4A1E29D02ABC6F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE69BAAC0A512C63D1C1A03D37E0849 /* Foundation.framework */; };
+		28FDD93858524A983F356ABDE82FB95C /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A019754E7EECBCA37BE6F611A11B46 /* MBProgressHUD-dummy.m */; };
+		33B4C2ED47D5497B1F3F02F6611ECC69 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F83B8776DE708A0F20C2B240A8877D /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		344A6488DAEC1272C67579D8DC066C45 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12B6DAACC5102E6F1D7B6EA867D5F67 /* SystemConfiguration.framework */; };
+		4861605DE2DE461957CA54E051DBAD68 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F42207ADCA512DBAB24C84DE7D6FF2CD /* Reachability-dummy.m */; };
+		55DDF7EC4396C321B3FDDBCD9FC19483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55B8E0DFC3579CBD45ACC2B6628482D /* Foundation.framework */; };
+		5D1F768C1639C56687A79DC948A7F0A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55B8E0DFC3579CBD45ACC2B6628482D /* Foundation.framework */; };
+		669172352C4109DCA340AB847D40ACA0 /* TWMessageBarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A6A18C9669C959821C8B97116002FC17 /* TWMessageBarManager.h */; };
+		70E2D49D35BE2067E86FD27574525D55 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A4D33AA40EDDCE8566CB9110EFF4C /* Reachability.m */; };
+		7C1D0291E2639426FD19EDFC3C823166 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B41B34E7DA72185679967365A3EEC5 /* Reachability.h */; };
+		8C8BF7B990F3B176EA6F2012E7139B49 /* TWMessageBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A3D5DCF1CF1F6139327A8F019A0398 /* TWMessageBarManager.m */; };
+		90BB0B9C770F57CB3EBE1166C79960DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55B8E0DFC3579CBD45ACC2B6628482D /* Foundation.framework */; };
+		A33A86A84D825F51BF76632623037F60 /* Pods-NSDWeather-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB4F592AA3D369869B420AE8145956F /* Pods-NSDWeather-dummy.m */; };
+		AC10E698241CE5BE7C0C8E82E2DEC0E8 /* TWMessageBarManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B02BBBDB84C92060250ADC3BC1D5314E /* TWMessageBarManager-dummy.m */; };
+		B74A184C2D1960B24F183B8F06A8C2AC /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB2CF7022C395DE45FAE84C7E05646C /* MBProgressHUD.h */; };
+		E203C412DD6E36ADD17FF20D4FDFC60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55B8E0DFC3579CBD45ACC2B6628482D /* Foundation.framework */; };
+		E4448DD35265AAF7CCC68138AA0A1A4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C896CD7B84448B60494CCD555F64EE /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		48DA680C172F76871870ACB65B75CBA3 /* PBXContainerItemProxy */ = {
+		064F8394CAFCA58F7A0CBE1202488BDF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1893DE70459B9C5430E1E53597BF9817;
-			remoteInfo = Reachability;
-		};
-		EDF37D5E4C2A788FCF9F4C429F19FA3F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 655636B6F1D8BF2BD3803787A269BBFE;
+			remoteGlobalIDString = 6394834C32C660A036A4C034F952F0E3;
 			remoteInfo = TWMessageBarManager;
 		};
-		F0BC7963D7D766AAE544ADF7F9F2340B /* PBXContainerItemProxy */ = {
+		1620995EF2FF68868367272F264B71D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9DAEC8DE3228D9D7E118998FBA40B062;
+			remoteGlobalIDString = 5A5AC1274B54C0452385898922EC0435;
+			remoteInfo = Reachability;
+		};
+		D024E92A0735B63F728832D07FFDE6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B877E5FAFB9F47F4C5726C0D2ACAECF8;
 			remoteInfo = MBProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0571227D617504147CF58BB6FA94492D /* icon-error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-error@2x.png"; path = "Classes/Icons/icon-error@2x.png"; sourceTree = "<group>"; };
-		0C8D6474930B6F0C78F5210F06C12D7E /* libTWMessageBarManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTWMessageBarManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E36F79B80A8FE4219D3986A10CD6995 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		15CBD97607910790235562F21D35189A /* Pods-NSDWeather-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSDWeather-resources.sh"; sourceTree = "<group>"; };
+		0F57C7EE034FAD4906E16E3554DFBCA0 /* Pods-NSDWeather.debug mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSDWeather.debug mock.xcconfig"; sourceTree = "<group>"; };
+		18A019754E7EECBCA37BE6F611A11B46 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		1ACAAA950BBE820BB8A3AB1488487624 /* icon-error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-error.png"; path = "Classes/Icons/icon-error.png"; sourceTree = "<group>"; };
+		1D0A4D33AA40EDDCE8566CB9110EFF4C /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		2194B01C555BA275840F69EA07C8399D /* Pods-NSDWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSDWeather.release.xcconfig"; sourceTree = "<group>"; };
+		26F83B8776DE708A0F20C2B240A8877D /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		275A4446EFE1449EDCDD72CDA6391EC5 /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		291B38AEF19776424166FDB5147F4681 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
-		2DE4AAC77BE5A338FE5587D3BEEC4867 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
 		2EEADF989562EBCDB890B7BA63711132 /* icon-info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-info@2x.png"; path = "Classes/Icons/icon-info@2x.png"; sourceTree = "<group>"; };
 		31B9533B382381CF443007A0E2CC4433 /* TWMessageBarManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TWMessageBarManager.xcconfig; sourceTree = "<group>"; };
+		39EE3C07C6F8A3EBB6B144CAEBF31FFB /* libTWMessageBarManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTWMessageBarManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCE83671B3E9EA446554BA604D6BB22 /* icon-success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-success.png"; path = "Classes/Icons/icon-success.png"; sourceTree = "<group>"; };
-		41229D4FCA76456A3AB3BC663AF0B698 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		46544FEE5AAE17428AF81A783D3BE0C5 /* Pods-NSDWeather-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSDWeather-dummy.m"; sourceTree = "<group>"; };
-		473357D58652EE21A07CE4F2A75503E5 /* libPods-NSDWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSDWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AE69BAAC0A512C63D1C1A03D37E0849 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		506DAF7A37336A8D2EC5EE146821F59A /* TWMessageBarManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TWMessageBarManager-dummy.m"; sourceTree = "<group>"; };
-		5E1A44C1397ECD04AEF8C2A1C2F45E78 /* Pods-NSDWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSDWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		46C572621055AA37381DE6AEE5CB1399 /* TWMessageBarManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TWMessageBarManager-Private.xcconfig"; sourceTree = "<group>"; };
+		479FCB01B74AF7E3397C140AC742FC92 /* libPods-NSDWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSDWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AA4A351B7CD578C2D7EB9A2A6D4A07 /* Pods-NSDWeather-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSDWeather-acknowledgements.plist"; sourceTree = "<group>"; };
+		483AF09F9A795EEE73BCD3BD411550E4 /* MBProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MBProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
 		60563C0F703ADEBF68C4AC3891ECA2F2 /* TWMessageBarManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWMessageBarManager-prefix.pch"; sourceTree = "<group>"; };
-		6569601CFF094BF7A8C021D1F9AE8FDB /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E1FE8B2576E473E2E0A088AC61D9A81 /* icon-success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-success@2x.png"; path = "Classes/Icons/icon-success@2x.png"; sourceTree = "<group>"; };
-		73D2168DF9DEC426521A3852BBABF8F7 /* TWMessageBarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWMessageBarManager.h; path = Classes/TWMessageBarManager.h; sourceTree = "<group>"; };
-		771061FB5D22A6166731D5E0F1927C88 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		88B1DF2C217868230476EDD1B8975C26 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		93EA40254F6C1F84364A87727404F7EF /* MBProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MBProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
-		9B0C7E9CA2B8B1EBB7CE89A23F3EAD08 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		9DBA288807E28D16BB9A6634FF7C4CF5 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
-		9DFDA8CDCAE8A9AF9895B07DE06A9824 /* TWMessageBarManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TWMessageBarManager-Private.xcconfig"; sourceTree = "<group>"; };
-		B85ED38FD9B5E36B2B0D652825F7A507 /* Reachability-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Reachability-Private.xcconfig"; sourceTree = "<group>"; };
+		A013EB63D1F8069D65A5A83F3EF59697 /* Pods-NSDWeather-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSDWeather-resources.sh"; sourceTree = "<group>"; };
+		A6A18C9669C959821C8B97116002FC17 /* TWMessageBarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWMessageBarManager.h; path = Classes/TWMessageBarManager.h; sourceTree = "<group>"; };
+		A6B41B34E7DA72185679967365A3EEC5 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		ADB2CF7022C395DE45FAE84C7E05646C /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B02BBBDB84C92060250ADC3BC1D5314E /* TWMessageBarManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TWMessageBarManager-dummy.m"; sourceTree = "<group>"; };
+		B0EB64F696C3A9D1B484CBF26257FCB6 /* Reachability-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Reachability-Private.xcconfig"; sourceTree = "<group>"; };
+		B55B8E0DFC3579CBD45ACC2B6628482D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B9BF9451CA28C12C2E7775F5AADE160A /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
-		BA4CE67A398DD8E31391EC655C4BF974 /* TWMessageBarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWMessageBarManager.m; path = Classes/TWMessageBarManager.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BC916AD6A694F60B08525CF6F79B291E /* Pods-NSDWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSDWeather.release.xcconfig"; sourceTree = "<group>"; };
-		D93D15D2ABAC61119EE08E323A760CAF /* Pods-NSDWeather-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSDWeather-acknowledgements.plist"; sourceTree = "<group>"; };
-		DF8D2643D8E8EE15FB72D0AF682BC8B9 /* Pods-NSDWeather-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSDWeather-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C03F8C50E6AC9AF78E6B311AA8F1F010 /* Pods-NSDWeather-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSDWeather-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C12B6DAACC5102E6F1D7B6EA867D5F67 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		D3C896CD7B84448B60494CCD555F64EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		D6A234D1D4165F27D65561A265468396 /* Pods-NSDWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSDWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		D8FF686E83DEF87B54B65BB274FFCB80 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A3D5DCF1CF1F6139327A8F019A0398 /* TWMessageBarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWMessageBarManager.m; path = Classes/TWMessageBarManager.m; sourceTree = "<group>"; };
 		E44249BAAEB643270E004485DBA53416 /* icon-info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-info.png"; path = "Classes/Icons/icon-info.png"; sourceTree = "<group>"; };
-		F136FD8C750979A98D6312CE8ECA1506 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		F30DA52C60D8B42F372B933D296828FD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		F46E4B50502C9C54D6C4FF1933EC46E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		FB619133AC3174B5AE8B5FA275DBD9D3 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F42207ADCA512DBAB24C84DE7D6FF2CD /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		FCB4F592AA3D369869B420AE8145956F /* Pods-NSDWeather-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSDWeather-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		621FEC48C4CDFAA167D233FEDFACBCE0 /* Frameworks */ = {
+		31BDE5D7273DF029A416D1B8FA330407 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F221D48BD82457ECA4A1E29D02ABC6F1 /* Foundation.framework in Frameworks */,
+				90BB0B9C770F57CB3EBE1166C79960DC /* Foundation.framework in Frameworks */,
+				344A6488DAEC1272C67579D8DC066C45 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91E7163BC7B028C8D2732B25DB0E0182 /* Frameworks */ = {
+		336FB5656CF23C5530659CF293AFB386 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43E9D203B103ACEC0E9F9D669D18AEDA /* Foundation.framework in Frameworks */,
-				E9A3EFDA08F79DD651E72FD1F20B9335 /* SystemConfiguration.framework in Frameworks */,
+				E203C412DD6E36ADD17FF20D4FDFC60E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92D86271E6F30C54DC88585074D0EFE5 /* Frameworks */ = {
+		BE461ADA1E478B5624845B6B68B6FD62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF0FE86284BDDCFFBA1AF2A77C1FD80B /* Foundation.framework in Frameworks */,
+				E4448DD35265AAF7CCC68138AA0A1A4B /* CoreGraphics.framework in Frameworks */,
+				55DDF7EC4396C321B3FDDBCD9FC19483 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFB7533483CECC723DD48D70F150D3F0 /* Frameworks */ = {
+		FBAAC56DE88F868164A99415E1601EDE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21D1687D8B59F8FDDB3F45AB3B9E50B9 /* CoreGraphics.framework in Frameworks */,
-				44CBFB963AD0C170C1E9CE5FA6060E00 /* Foundation.framework in Frameworks */,
+				5D1F768C1639C56687A79DC948A7F0A5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,48 +140,57 @@
 		2736345F73CEC999E69689607CF3BCCC /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				9B0C7E9CA2B8B1EBB7CE89A23F3EAD08 /* MBProgressHUD.h */,
-				FB619133AC3174B5AE8B5FA275DBD9D3 /* MBProgressHUD.m */,
+				ADB2CF7022C395DE45FAE84C7E05646C /* MBProgressHUD.h */,
+				26F83B8776DE708A0F20C2B240A8877D /* MBProgressHUD.m */,
 				95ECAA1328135DE1A01DCDFD4A170E28 /* Support Files */,
 			);
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		28E11A40BF2BB9CC7C5044E803CD08EA /* Pods-NSDWeather */ = {
-			isa = PBXGroup;
-			children = (
-				DF8D2643D8E8EE15FB72D0AF682BC8B9 /* Pods-NSDWeather-acknowledgements.markdown */,
-				D93D15D2ABAC61119EE08E323A760CAF /* Pods-NSDWeather-acknowledgements.plist */,
-				46544FEE5AAE17428AF81A783D3BE0C5 /* Pods-NSDWeather-dummy.m */,
-				15CBD97607910790235562F21D35189A /* Pods-NSDWeather-resources.sh */,
-				5E1A44C1397ECD04AEF8C2A1C2F45E78 /* Pods-NSDWeather.debug.xcconfig */,
-				BC916AD6A694F60B08525CF6F79B291E /* Pods-NSDWeather.release.xcconfig */,
-			);
-			name = "Pods-NSDWeather";
-			path = "Target Support Files/Pods-NSDWeather";
-			sourceTree = "<group>";
-		};
 		3AEE6D24D757DB34E6C8F86197785416 /* TWMessageBarManager */ = {
 			isa = PBXGroup;
 			children = (
-				73D2168DF9DEC426521A3852BBABF8F7 /* TWMessageBarManager.h */,
-				BA4CE67A398DD8E31391EC655C4BF974 /* TWMessageBarManager.m */,
+				A6A18C9669C959821C8B97116002FC17 /* TWMessageBarManager.h */,
+				E0A3D5DCF1CF1F6139327A8F019A0398 /* TWMessageBarManager.m */,
 				541E8A9579A75512578BD4CBF0E5438C /* Resources */,
 				3B9B51A11954EAD82BD61BE72EEAD274 /* Support Files */,
 			);
 			path = TWMessageBarManager;
 			sourceTree = "<group>";
 		};
+		3AF78C5D605EE17BC096B14E3ABA10DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EF4D90D2304B73DCF99A6C61225993C /* Pods-NSDWeather */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		3B9B51A11954EAD82BD61BE72EEAD274 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				31B9533B382381CF443007A0E2CC4433 /* TWMessageBarManager.xcconfig */,
-				9DFDA8CDCAE8A9AF9895B07DE06A9824 /* TWMessageBarManager-Private.xcconfig */,
-				506DAF7A37336A8D2EC5EE146821F59A /* TWMessageBarManager-dummy.m */,
+				46C572621055AA37381DE6AEE5CB1399 /* TWMessageBarManager-Private.xcconfig */,
+				B02BBBDB84C92060250ADC3BC1D5314E /* TWMessageBarManager-dummy.m */,
 				60563C0F703ADEBF68C4AC3891ECA2F2 /* TWMessageBarManager-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TWMessageBarManager";
+			sourceTree = "<group>";
+		};
+		4EF4D90D2304B73DCF99A6C61225993C /* Pods-NSDWeather */ = {
+			isa = PBXGroup;
+			children = (
+				C03F8C50E6AC9AF78E6B311AA8F1F010 /* Pods-NSDWeather-acknowledgements.markdown */,
+				47AA4A351B7CD578C2D7EB9A2A6D4A07 /* Pods-NSDWeather-acknowledgements.plist */,
+				FCB4F592AA3D369869B420AE8145956F /* Pods-NSDWeather-dummy.m */,
+				A013EB63D1F8069D65A5A83F3EF59697 /* Pods-NSDWeather-resources.sh */,
+				D6A234D1D4165F27D65561A265468396 /* Pods-NSDWeather.debug.xcconfig */,
+				0F57C7EE034FAD4906E16E3554DFBCA0 /* Pods-NSDWeather.debug mock.xcconfig */,
+				2194B01C555BA275840F69EA07C8399D /* Pods-NSDWeather.release.xcconfig */,
+			);
+			name = "Pods-NSDWeather";
+			path = "Target Support Files/Pods-NSDWeather";
 			sourceTree = "<group>";
 		};
 		541E8A9579A75512578BD4CBF0E5438C /* Resources */ = {
@@ -206,14 +216,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		73E412240E64F46B22F7B9246EB53DAB /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				28E11A40BF2BB9CC7C5044E803CD08EA /* Pods-NSDWeather */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -221,16 +223,16 @@
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				6FB1344D9DC9CC52C9D1BBDA3492A8F1 /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				73E412240E64F46B22F7B9246EB53DAB /* Targets Support Files */,
+				3AF78C5D605EE17BC096B14E3ABA10DA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 		84D77D88532722C8C88710DAB3B9148B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F46E4B50502C9C54D6C4FF1933EC46E7 /* CoreGraphics.framework */,
-				4AE69BAAC0A512C63D1C1A03D37E0849 /* Foundation.framework */,
-				F30DA52C60D8B42F372B933D296828FD /* SystemConfiguration.framework */,
+				D3C896CD7B84448B60494CCD555F64EE /* CoreGraphics.framework */,
+				B55B8E0DFC3579CBD45ACC2B6628482D /* Foundation.framework */,
+				C12B6DAACC5102E6F1D7B6EA867D5F67 /* SystemConfiguration.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -238,8 +240,8 @@
 		8D022E148901E6D870A2B6A877287AFF /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				F136FD8C750979A98D6312CE8ECA1506 /* Reachability.h */,
-				771061FB5D22A6166731D5E0F1927C88 /* Reachability.m */,
+				A6B41B34E7DA72185679967365A3EEC5 /* Reachability.h */,
+				1D0A4D33AA40EDDCE8566CB9110EFF4C /* Reachability.m */,
 				A255C206E653074D660AEC1CE3F963EB /* Support Files */,
 			);
 			path = Reachability;
@@ -249,8 +251,8 @@
 			isa = PBXGroup;
 			children = (
 				9DBA288807E28D16BB9A6634FF7C4CF5 /* MBProgressHUD.xcconfig */,
-				93EA40254F6C1F84364A87727404F7EF /* MBProgressHUD-Private.xcconfig */,
-				88B1DF2C217868230476EDD1B8975C26 /* MBProgressHUD-dummy.m */,
+				483AF09F9A795EEE73BCD3BD411550E4 /* MBProgressHUD-Private.xcconfig */,
+				18A019754E7EECBCA37BE6F611A11B46 /* MBProgressHUD-dummy.m */,
 				0E36F79B80A8FE4219D3986A10CD6995 /* MBProgressHUD-prefix.pch */,
 			);
 			name = "Support Files";
@@ -261,8 +263,8 @@
 			isa = PBXGroup;
 			children = (
 				B9BF9451CA28C12C2E7775F5AADE160A /* Reachability.xcconfig */,
-				B85ED38FD9B5E36B2B0D652825F7A507 /* Reachability-Private.xcconfig */,
-				2DE4AAC77BE5A338FE5587D3BEEC4867 /* Reachability-dummy.m */,
+				B0EB64F696C3A9D1B484CBF26257FCB6 /* Reachability-Private.xcconfig */,
+				F42207ADCA512DBAB24C84DE7D6FF2CD /* Reachability-dummy.m */,
 				291B38AEF19776424166FDB5147F4681 /* Reachability-prefix.pch */,
 			);
 			name = "Support Files";
@@ -272,10 +274,10 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41229D4FCA76456A3AB3BC663AF0B698 /* libMBProgressHUD.a */,
-				473357D58652EE21A07CE4F2A75503E5 /* libPods-NSDWeather.a */,
-				6569601CFF094BF7A8C021D1F9AE8FDB /* libReachability.a */,
-				0C8D6474930B6F0C78F5210F06C12D7E /* libTWMessageBarManager.a */,
+				D8FF686E83DEF87B54B65BB274FFCB80 /* libMBProgressHUD.a */,
+				479FCB01B74AF7E3397C140AC742FC92 /* libPods-NSDWeather.a */,
+				275A4446EFE1449EDCDD72CDA6391EC5 /* libReachability.a */,
+				39EE3C07C6F8A3EBB6B144CAEBF31FFB /* libTWMessageBarManager.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -283,40 +285,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0762ED703CC809995D823FBC2F708654 /* Headers */ = {
+		1C60B696E90FA7DA54A4F5BA9B562930 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				792A2D5BC127A45EC9FA5C4944F2C359 /* MBProgressHUD.h in Headers */,
+				B74A184C2D1960B24F183B8F06A8C2AC /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B05485AB5684AE51632FB95EDAA7D4CB /* Headers */ = {
+		9AF192A5FB40298C806B44F7D8D7207A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E7C903FE51C51326D2656777C2C81C /* TWMessageBarManager.h in Headers */,
+				669172352C4109DCA340AB847D40ACA0 /* TWMessageBarManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8AFFEC7E1D399137649154652B4B014 /* Headers */ = {
+		AD49C3F8D3373D94882EE96F1F03FD08 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9930C7DDAD17C7F56DDFCAC316F89E3C /* Reachability.h in Headers */,
+				7C1D0291E2639426FD19EDFC3C823166 /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1893DE70459B9C5430E1E53597BF9817 /* Reachability */ = {
+		5A5AC1274B54C0452385898922EC0435 /* Reachability */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7308906685EEDEACADE55318549938F7 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildConfigurationList = 8CFEE20D13845C9A360AB4DD98B073B3 /* Build configuration list for PBXNativeTarget "Reachability" */;
 			buildPhases = (
-				1640A5B607EF8F9B5569D3175E1F0B02 /* Sources */,
-				91E7163BC7B028C8D2732B25DB0E0182 /* Frameworks */,
-				E8AFFEC7E1D399137649154652B4B014 /* Headers */,
+				F333BD45905C9434569DB31F02B352E5 /* Sources */,
+				31BDE5D7273DF029A416D1B8FA330407 /* Frameworks */,
+				AD49C3F8D3373D94882EE96F1F03FD08 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -324,16 +326,16 @@
 			);
 			name = Reachability;
 			productName = Reachability;
-			productReference = 6569601CFF094BF7A8C021D1F9AE8FDB /* libReachability.a */;
+			productReference = 275A4446EFE1449EDCDD72CDA6391EC5 /* libReachability.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		655636B6F1D8BF2BD3803787A269BBFE /* TWMessageBarManager */ = {
+		6394834C32C660A036A4C034F952F0E3 /* TWMessageBarManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF8D153D9E537A6DD696585CC0D87606 /* Build configuration list for PBXNativeTarget "TWMessageBarManager" */;
+			buildConfigurationList = FF23AD0921E98F1FAD06E300EF2A6257 /* Build configuration list for PBXNativeTarget "TWMessageBarManager" */;
 			buildPhases = (
-				61A478C4E0E930A78953172AD68D646D /* Sources */,
-				92D86271E6F30C54DC88585074D0EFE5 /* Frameworks */,
-				B05485AB5684AE51632FB95EDAA7D4CB /* Headers */,
+				550FB91DACB5629CBE6CE7B5420E25DB /* Sources */,
+				336FB5656CF23C5530659CF293AFB386 /* Frameworks */,
+				9AF192A5FB40298C806B44F7D8D7207A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -341,16 +343,16 @@
 			);
 			name = TWMessageBarManager;
 			productName = TWMessageBarManager;
-			productReference = 0C8D6474930B6F0C78F5210F06C12D7E /* libTWMessageBarManager.a */;
+			productReference = 39EE3C07C6F8A3EBB6B144CAEBF31FFB /* libTWMessageBarManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		9DAEC8DE3228D9D7E118998FBA40B062 /* MBProgressHUD */ = {
+		B877E5FAFB9F47F4C5726C0D2ACAECF8 /* MBProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A499DCFE73398E30C523B2A4EF16C451 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildConfigurationList = BBB8870E0FE3773D455B808A5F18CBB2 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
 			buildPhases = (
-				FC03576FD683AC62FD70C2B145301A3C /* Sources */,
-				BFB7533483CECC723DD48D70F150D3F0 /* Frameworks */,
-				0762ED703CC809995D823FBC2F708654 /* Headers */,
+				A0BD90A0CACD4FC49B4CABCBFB7BC84B /* Sources */,
+				BE461ADA1E478B5624845B6B68B6FD62 /* Frameworks */,
+				1C60B696E90FA7DA54A4F5BA9B562930 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -358,26 +360,26 @@
 			);
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
-			productReference = 41229D4FCA76456A3AB3BC663AF0B698 /* libMBProgressHUD.a */;
+			productReference = D8FF686E83DEF87B54B65BB274FFCB80 /* libMBProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		F055896218C040062FC5C4E1F98D8814 /* Pods-NSDWeather */ = {
+		C14BB584B81B8C7726BE51AAEBE918E6 /* Pods-NSDWeather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 961203F7929DA93DC9A04D967E406624 /* Build configuration list for PBXNativeTarget "Pods-NSDWeather" */;
+			buildConfigurationList = 84A9C7D0C3754451D2761101014B5A9B /* Build configuration list for PBXNativeTarget "Pods-NSDWeather" */;
 			buildPhases = (
-				6398EA14E9C7830640C3E2AAA06B8E3D /* Sources */,
-				621FEC48C4CDFAA167D233FEDFACBCE0 /* Frameworks */,
+				EE1933EEA611AC687B6EA13462F488E0 /* Sources */,
+				FBAAC56DE88F868164A99415E1601EDE /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B3D187949CB10EBC412805E02B556C2A /* PBXTargetDependency */,
-				A9D342ADA016FFE697866AEA9DD86870 /* PBXTargetDependency */,
-				854306757665C15B79E87BCD2EE517DA /* PBXTargetDependency */,
+				E6B07EC1562BFE5C2B90E7244D89FCCF /* PBXTargetDependency */,
+				62B62414D84CDD84787A9645CBB6DFFA /* PBXTargetDependency */,
+				F8BF1608ED2DFA821455867858C220F7 /* PBXTargetDependency */,
 			);
 			name = "Pods-NSDWeather";
 			productName = "Pods-NSDWeather";
-			productReference = 473357D58652EE21A07CE4F2A75503E5 /* libPods-NSDWeather.a */;
+			productReference = 479FCB01B74AF7E3397C140AC742FC92 /* libPods-NSDWeather.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -401,77 +403,77 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DAEC8DE3228D9D7E118998FBA40B062 /* MBProgressHUD */,
-				F055896218C040062FC5C4E1F98D8814 /* Pods-NSDWeather */,
-				1893DE70459B9C5430E1E53597BF9817 /* Reachability */,
-				655636B6F1D8BF2BD3803787A269BBFE /* TWMessageBarManager */,
+				B877E5FAFB9F47F4C5726C0D2ACAECF8 /* MBProgressHUD */,
+				C14BB584B81B8C7726BE51AAEBE918E6 /* Pods-NSDWeather */,
+				5A5AC1274B54C0452385898922EC0435 /* Reachability */,
+				6394834C32C660A036A4C034F952F0E3 /* TWMessageBarManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1640A5B607EF8F9B5569D3175E1F0B02 /* Sources */ = {
+		550FB91DACB5629CBE6CE7B5420E25DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F91DCC662E951F685676CB8F0A29F69 /* Reachability-dummy.m in Sources */,
-				5A35EB338EB2F46A81ED945CD8673D52 /* Reachability.m in Sources */,
+				AC10E698241CE5BE7C0C8E82E2DEC0E8 /* TWMessageBarManager-dummy.m in Sources */,
+				8C8BF7B990F3B176EA6F2012E7139B49 /* TWMessageBarManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61A478C4E0E930A78953172AD68D646D /* Sources */ = {
+		A0BD90A0CACD4FC49B4CABCBFB7BC84B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7677C7CDE537991EA74F5F0F36F2B4FE /* TWMessageBarManager-dummy.m in Sources */,
-				5EBC4EEB68637FB159226FEFE56821E5 /* TWMessageBarManager.m in Sources */,
+				28FDD93858524A983F356ABDE82FB95C /* MBProgressHUD-dummy.m in Sources */,
+				33B4C2ED47D5497B1F3F02F6611ECC69 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6398EA14E9C7830640C3E2AAA06B8E3D /* Sources */ = {
+		EE1933EEA611AC687B6EA13462F488E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001DE4BEBB5377CE21944232EBD9D2B9 /* Pods-NSDWeather-dummy.m in Sources */,
+				A33A86A84D825F51BF76632623037F60 /* Pods-NSDWeather-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC03576FD683AC62FD70C2B145301A3C /* Sources */ = {
+		F333BD45905C9434569DB31F02B352E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1D39677821D6B6DF5874705A6A956ED /* MBProgressHUD-dummy.m in Sources */,
-				19E77687F8080F41284469BB7FDEB915 /* MBProgressHUD.m in Sources */,
+				4861605DE2DE461957CA54E051DBAD68 /* Reachability-dummy.m in Sources */,
+				70E2D49D35BE2067E86FD27574525D55 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		854306757665C15B79E87BCD2EE517DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TWMessageBarManager;
-			target = 655636B6F1D8BF2BD3803787A269BBFE /* TWMessageBarManager */;
-			targetProxy = EDF37D5E4C2A788FCF9F4C429F19FA3F /* PBXContainerItemProxy */;
-		};
-		A9D342ADA016FFE697866AEA9DD86870 /* PBXTargetDependency */ = {
+		62B62414D84CDD84787A9645CBB6DFFA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Reachability;
-			target = 1893DE70459B9C5430E1E53597BF9817 /* Reachability */;
-			targetProxy = 48DA680C172F76871870ACB65B75CBA3 /* PBXContainerItemProxy */;
+			target = 5A5AC1274B54C0452385898922EC0435 /* Reachability */;
+			targetProxy = 1620995EF2FF68868367272F264B71D2 /* PBXContainerItemProxy */;
 		};
-		B3D187949CB10EBC412805E02B556C2A /* PBXTargetDependency */ = {
+		E6B07EC1562BFE5C2B90E7244D89FCCF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
-			target = 9DAEC8DE3228D9D7E118998FBA40B062 /* MBProgressHUD */;
-			targetProxy = F0BC7963D7D766AAE544ADF7F9F2340B /* PBXContainerItemProxy */;
+			target = B877E5FAFB9F47F4C5726C0D2ACAECF8 /* MBProgressHUD */;
+			targetProxy = D024E92A0735B63F728832D07FFDE6A7 /* PBXContainerItemProxy */;
+		};
+		F8BF1608ED2DFA821455867858C220F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TWMessageBarManager;
+			target = 6394834C32C660A036A4C034F952F0E3 /* TWMessageBarManager */;
+			targetProxy = 064F8394CAFCA58F7A0CBE1202488BDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02B0AE486CA5CA7664E9E4CA04858F0A /* Release */ = {
+		1AC165F9F31D1F2B2AC185B09FBB6F3A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DFDA8CDCAE8A9AF9895B07DE06A9824 /* TWMessageBarManager-Private.xcconfig */;
+			baseConfigurationReference = 46C572621055AA37381DE6AEE5CB1399 /* TWMessageBarManager-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TWMessageBarManager/TWMessageBarManager-prefix.pch";
@@ -485,73 +487,9 @@
 			};
 			name = Release;
 		};
-		16D09A540905AD7A7CE16C0402E50FEE /* Release */ = {
+		22690FA16674ADD4CFB1E700E778A295 /* Debug Mock */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B85ED38FD9B5E36B2B0D652825F7A507 /* Reachability-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		2ECC46915A4290B0D4E9B84BB5698E98 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DFDA8CDCAE8A9AF9895B07DE06A9824 /* TWMessageBarManager-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TWMessageBarManager/TWMessageBarManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		3144AF0C67B6F8D3A9E41A4F7320468F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E1A44C1397ECD04AEF8C2A1C2F45E78 /* Pods-NSDWeather.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		612DB466C3152C1F6973F0B4D71AF2D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B85ED38FD9B5E36B2B0D652825F7A507 /* Reachability-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		8B35F47739F12A304313B3313BA28478 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EA40254F6C1F84364A87727404F7EF /* MBProgressHUD-Private.xcconfig */;
+			baseConfigurationReference = 483AF09F9A795EEE73BCD3BD411550E4 /* MBProgressHUD-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
@@ -563,23 +501,94 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = "Debug Mock";
 		};
-		9BF98FBA4A771F28687531BB1B94DB45 /* Release */ = {
+		3C0E8CF918C1C325D6F4FC939264D68D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC916AD6A694F60B08525CF6F79B291E /* Pods-NSDWeather.release.xcconfig */;
+			baseConfigurationReference = 46C572621055AA37381DE6AEE5CB1399 /* TWMessageBarManager-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TWMessageBarManager/TWMessageBarManager-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
+		};
+		583C94E24C240F5AFBBEFABB7C333F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483AF09F9A795EEE73BCD3BD411550E4 /* MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5E9DA24F9B3DC3137426D1C95883138C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0EB64F696C3A9D1B484CBF26257FCB6 /* Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		72A04E35C1B087DEF661B3FDDDACCD04 /* Debug Mock */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"DEBUG_MOCK=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = "Debug Mock";
 		};
 		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -620,21 +629,117 @@
 			};
 			name = Debug;
 		};
-		CFCF6D2798710D2C93A93308217AE8FD /* Debug */ = {
+		BCEF568C0789E7A61FA9084341C4CA01 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EA40254F6C1F84364A87727404F7EF /* MBProgressHUD-Private.xcconfig */;
+			baseConfigurationReference = 2194B01C555BA275840F69EA07C8399D /* Pods-NSDWeather.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C3E967AAA52731623BA734769AAF4A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A234D1D4165F27D65561A265468396 /* Pods-NSDWeather.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CC7F7FC947239D54ADA56E2A7907B949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483AF09F9A795EEE73BCD3BD411550E4 /* MBProgressHUD-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
+		};
+		D0AD9D25870D78B139D455288DDC7DC0 /* Debug Mock */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C572621055AA37381DE6AEE5CB1399 /* TWMessageBarManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TWMessageBarManager/TWMessageBarManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = "Debug Mock";
+		};
+		DBA41923F2932F0D2DF45CA406B71EA9 /* Debug Mock */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F57C7EE034FAD4906E16E3554DFBCA0 /* Pods-NSDWeather.debug mock.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = "Debug Mock";
+		};
+		DBDC4F292250A8264CBF25FA287A2910 /* Debug Mock */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0EB64F696C3A9D1B484CBF26257FCB6 /* Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = "Debug Mock";
+		};
+		EB1AACCFD65395C3CD4363B8433619D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0EB64F696C3A9D1B484CBF26257FCB6 /* Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -677,43 +782,48 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				72A04E35C1B087DEF661B3FDDDACCD04 /* Debug Mock */,
 				FB45FFD90572718D82AB9092B750F0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7308906685EEDEACADE55318549938F7 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+		84A9C7D0C3754451D2761101014B5A9B /* Build configuration list for PBXNativeTarget "Pods-NSDWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				612DB466C3152C1F6973F0B4D71AF2D6 /* Debug */,
-				16D09A540905AD7A7CE16C0402E50FEE /* Release */,
+				C3E967AAA52731623BA734769AAF4A58 /* Debug */,
+				DBA41923F2932F0D2DF45CA406B71EA9 /* Debug Mock */,
+				BCEF568C0789E7A61FA9084341C4CA01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		961203F7929DA93DC9A04D967E406624 /* Build configuration list for PBXNativeTarget "Pods-NSDWeather" */ = {
+		8CFEE20D13845C9A360AB4DD98B073B3 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3144AF0C67B6F8D3A9E41A4F7320468F /* Debug */,
-				9BF98FBA4A771F28687531BB1B94DB45 /* Release */,
+				5E9DA24F9B3DC3137426D1C95883138C /* Debug */,
+				DBDC4F292250A8264CBF25FA287A2910 /* Debug Mock */,
+				EB1AACCFD65395C3CD4363B8433619D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A499DCFE73398E30C523B2A4EF16C451 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+		BBB8870E0FE3773D455B808A5F18CBB2 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFCF6D2798710D2C93A93308217AE8FD /* Debug */,
-				8B35F47739F12A304313B3313BA28478 /* Release */,
+				583C94E24C240F5AFBBEFABB7C333F3F /* Debug */,
+				22690FA16674ADD4CFB1E700E778A295 /* Debug Mock */,
+				CC7F7FC947239D54ADA56E2A7907B949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF8D153D9E537A6DD696585CC0D87606 /* Build configuration list for PBXNativeTarget "TWMessageBarManager" */ = {
+		FF23AD0921E98F1FAD06E300EF2A6257 /* Build configuration list for PBXNativeTarget "TWMessageBarManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2ECC46915A4290B0D4E9B84BB5698E98 /* Debug */,
-				02B0AE486CA5CA7664E9E4CA04858F0A /* Release */,
+				3C0E8CF918C1C325D6F4FC939264D68D /* Debug */,
+				D0AD9D25870D78B139D455288DDC7DC0 /* Debug Mock */,
+				1AC165F9F31D1F2B2AC185B09FBB6F3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

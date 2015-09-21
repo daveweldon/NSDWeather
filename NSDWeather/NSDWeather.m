@@ -13,7 +13,7 @@
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary
 {
     self = [super init];
-    
+
     if (self) {
         
         NSDictionary *currentWeatherDictionary = dictionary[@"weather"][@"curren_weather"][0];
@@ -23,6 +23,23 @@
         _currentWeather = [[NSDCurrentWeather alloc] initWithDictionary:currentWeatherDictionary];
         _todayForecast = [[NSDForecast alloc] initWithDictionary:todayForecastDictionary];
         _tomorrowForecast = [[NSDForecast alloc] initWithDictionary:tomorrowForecastDictionary];
+        
+    }
+    
+    return self;
+}
+
+- (instancetype)initWithCurrentWeather:(NSDCurrentWeather *)currentWeather
+                         todayForecast:(NSDForecast *)todayForecast
+                      tomorrowForecast:(NSDForecast *)tomorrowForecast
+{
+    self = [super init];
+    
+    if (self) {
+        
+        _currentWeather = currentWeather;
+        _todayForecast = todayForecast;
+        _tomorrowForecast = tomorrowForecast;
         
     }
     
@@ -57,6 +74,25 @@
     return self;
 }
 
+- (instancetype)initWithTemperature:(NSString *)temperature
+                    temperatureUnit:(NSString *)temperatureUnit
+                        weatherCode:(NSString *)weatherCode
+                        weatherText:(NSString *)weatherText
+{
+    self = [super init];
+    
+    if (self) {
+        
+        _temperature = temperature;
+        _temperatureUnit = temperatureUnit;
+        _weatherCode = weatherCode;
+        _weatherText = weatherText;
+        
+    }
+    
+    return self;
+}
+
 - (NSString *)description
 {
     return [NSString stringWithFormat:@"temperature: %@\ntemperature unit: %@\nweather code: %@\nweather text: %@",self.temperature,
@@ -84,6 +120,31 @@
         _nightMinTemperature = dictionary[@"night_min_temp"];
         _temperatureUnit = dictionary[@"temp_unit"];
         
+    }
+    
+    return self;
+}
+
+- (instancetype)initWithDayWeatherCode:(NSString *)dayWeatherCode
+                        dayWeatherText:(NSString *)dayWeatherText
+                     dayMaxTemperature:(NSString *)dayMaxTemperature
+                      nightWeatherCode:(NSString *)nightWeatherCode
+                      nightWeatherText:(NSString *)nightWeatherText
+                   nightMinTemperature:(NSString *)nightMinTemperature
+                       temperatureUnit:(NSString *)temperatureUnit
+{
+    self = [super init];
+    
+    if (self) {
+        
+        _dayWeatherCode = dayWeatherCode;
+        _dayWeatherText = dayWeatherText;
+        _dayMaxTemperature = dayMaxTemperature;
+        _nightWeatherCode = nightWeatherCode;
+        _nightWeatherText = nightWeatherText;
+        _nightMinTemperature = nightMinTemperature;
+        _temperatureUnit = temperatureUnit;
+
     }
     
     return self;

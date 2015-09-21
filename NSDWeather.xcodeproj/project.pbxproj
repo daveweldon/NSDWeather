@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		876AECA788E7D69CB2FE3FC9 /* libPods-NSDWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDB8A6DC9996D9C79B7C2EC /* libPods-NSDWeather.a */; };
+		E09835B31BB0A3DE00CCE8D3 /* NSDMockData.m in Sources */ = {isa = PBXBuildFile; fileRef = E09835B21BB0A3DE00CCE8D3 /* NSDMockData.m */; };
 		E0BD70541BAF078300ECF7A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BD70531BAF078300ECF7A9 /* main.m */; };
 		E0BD70571BAF078300ECF7A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BD70561BAF078300ECF7A9 /* AppDelegate.m */; };
 		E0BD705A1BAF078300ECF7A9 /* NSDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BD70591BAF078300ECF7A9 /* NSDHomeViewController.m */; };
@@ -35,6 +36,9 @@
 		0E3B49CFF45AE16845199A2D /* Pods-NSDWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSDWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSDWeather/Pods-NSDWeather.debug.xcconfig"; sourceTree = "<group>"; };
 		2444BF9D64541707BFB89322 /* Pods-NSDWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSDWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSDWeather/Pods-NSDWeather.release.xcconfig"; sourceTree = "<group>"; };
 		8DDB8A6DC9996D9C79B7C2EC /* libPods-NSDWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSDWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47B988FBD318F8D606B481D /* Pods-NSDWeather.debug mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSDWeather.debug mock.xcconfig"; path = "Pods/Target Support Files/Pods-NSDWeather/Pods-NSDWeather.debug mock.xcconfig"; sourceTree = "<group>"; };
+		E09835B11BB0A3DE00CCE8D3 /* NSDMockData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDMockData.h; sourceTree = "<group>"; };
+		E09835B21BB0A3DE00CCE8D3 /* NSDMockData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDMockData.m; sourceTree = "<group>"; };
 		E0BD704E1BAF078300ECF7A9 /* NSDWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BD70521BAF078300ECF7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0BD70531BAF078300ECF7A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 			children = (
 				0E3B49CFF45AE16845199A2D /* Pods-NSDWeather.debug.xcconfig */,
 				2444BF9D64541707BFB89322 /* Pods-NSDWeather.release.xcconfig */,
+				A47B988FBD318F8D606B481D /* Pods-NSDWeather.debug mock.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -161,6 +166,8 @@
 			children = (
 				E0BD70821BAF20AC00ECF7A9 /* NSDWeather.h */,
 				E0BD70831BAF20AC00ECF7A9 /* NSDWeather.m */,
+				E09835B11BB0A3DE00CCE8D3 /* NSDMockData.h */,
+				E09835B21BB0A3DE00CCE8D3 /* NSDMockData.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -337,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09835B31BB0A3DE00CCE8D3 /* NSDMockData.m in Sources */,
 				E0BD705A1BAF078300ECF7A9 /* NSDHomeViewController.m in Sources */,
 				E0BD70811BAF116000ECF7A9 /* NSDConstants.m in Sources */,
 				E0BD70841BAF20AC00ECF7A9 /* NSDWeather.m in Sources */,
@@ -384,6 +392,84 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E09835AE1BB09ECC00CCE8D3 /* Debug Mock */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "Debug Mock";
+		};
+		E09835AF1BB09ECC00CCE8D3 /* Debug Mock */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47B988FBD318F8D606B481D /* Pods-NSDWeather.debug mock.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"IS_MOCK_MODE=1",
+				);
+				INFOPLIST_FILE = NSDWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = "Debug Mock";
+		};
+		E09835B01BB09ECC00CCE8D3 /* Debug Mock */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NSDWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSDWeather.app/NSDWeather";
+			};
+			name = "Debug Mock";
+		};
 		E0BD706F1BAF078400ECF7A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -527,6 +613,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0BD706F1BAF078400ECF7A9 /* Debug */,
+				E09835AE1BB09ECC00CCE8D3 /* Debug Mock */,
 				E0BD70701BAF078400ECF7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -536,6 +623,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0BD70721BAF078400ECF7A9 /* Debug */,
+				E09835AF1BB09ECC00CCE8D3 /* Debug Mock */,
 				E0BD70731BAF078400ECF7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -545,6 +633,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0BD70751BAF078400ECF7A9 /* Debug */,
+				E09835B01BB09ECC00CCE8D3 /* Debug Mock */,
 				E0BD70761BAF078400ECF7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
